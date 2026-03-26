@@ -11,6 +11,6 @@ public class WebConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry
                 .addResourceHandler("/uploads/**")
-                .addResourceLocations( "file:C:/Users/Gerson Gutierrez/Desktop/PROYECTO CAMARAS CON JAVA Y REACT/Camaras-fotograficas-spring boot/uploads/");
+                .addResourceLocations("file:./uploads/");
     }
 }
